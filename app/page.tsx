@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { VendorProvider, useVendor } from './context/VendorContext';
 import Header from './components/Header/Headers';
 import VendorList from './components/VendorsList/VendorList';
-// import Map from './components/Map/map';
+import Map from './components/Map/map';
 import VendorFormModal from './components/Modal/VendorFormModal';
 import ConfirmModal from './components/Modal/ConfirmModal';
 import Toast from './components/Toast/Toast';
