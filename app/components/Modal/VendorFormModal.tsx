@@ -4,7 +4,7 @@
 import React, { useState, useEffect } from 'react';
 import { useVendor } from '../../context/VendorContext';
 import { Vendor } from '../../Types/index';
-import { MapPicker } from '../Map/map';
+// import { MapPicker } from '../Map/map';
 
 interface VendorFormModalProps {
   isOpen: boolean;
